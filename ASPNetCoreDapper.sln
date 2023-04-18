@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNetCoreDapper", "ASPNetCoreDapper\ASPNetCoreDapper.csproj", "{61AE2BA6-3F97-48E4-A5EB-94670016BD02}"
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61AE2BA6-3F97-48E4-A5EB-94670016BD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61AE2BA6-3F97-48E4-A5EB-94670016BD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61AE2BA6-3F97-48E4-A5EB-94670016BD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61AE2BA6-3F97-48E4-A5EB-94670016BD02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C621634-25BA-469C-9E61-3C2C64A57C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C621634-25BA-469C-9E61-3C2C64A57C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C621634-25BA-469C-9E61-3C2C64A57C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C621634-25BA-469C-9E61-3C2C64A57C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2590F795-B342-42F6-8D0A-5111D8FC6292}
+	EndGlobalSection
+EndGlobal

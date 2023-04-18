@@ -1,0 +1,205 @@
+{
+	"info": {
+		"_postman_id": "faf1b6b8-19ef-4b1c-856e-c6f577cea04d",
+		"name": "ASPNetCoreDapper",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2882112"
+	},
+	"item": [
+		{
+			"name": "Get all companies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44308/api/companies",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"companies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get company",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44308/api/companies/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"companies",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get company by procedure",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44308/api/companies/ByEmployeeId/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"companies",
+						"ByEmployeeId",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get company by multiple result",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44308/api/companies/1/multipleresult",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"companies",
+						"1",
+						"multipleresult"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get company by multiple mapping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44308/api/companies/MultipleMapping",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"companies",
+						"MultipleMapping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add company",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"CCRS Plus Ltd\",\r\n    \"address\": \"Convent Garden\",\r\n    \"country\": \"UK\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44308/api/companies",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"companies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Alter company",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Updated\",\r\n    \"address\": \"Convent Garden\",\r\n    \"country\": \"UK\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44308/api/companies/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"companies",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete company",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44308/api/companies/11",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"companies",
+						"11"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
