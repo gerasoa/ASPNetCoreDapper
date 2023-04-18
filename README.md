@@ -18,3 +18,7 @@ QuerySingleOrDefault – executes a query and maps the result, or a default valu
 QueryMultiple – an extension method that executes multiple queries within the same command and map results
 
 As we said, Dapper provides an async version for all these methods (ExecuteAsync, QueryAsync, QueryFirstAsync, QueryFirstOrDefaultAsync, QuerySingleAsync, QuerySingleOrDefaultAsync, QueryMultipleAsync).
+
+
+https://code-maze.com/using-dapper-with-asp-net-core-web-api/
+Posted by Marinko Spasojevic
