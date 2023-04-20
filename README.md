@@ -4,6 +4,7 @@
 This repository is intended for learning ASP.NET Core web development using Dapper, a simple and efficient Object-Relational Mapping (ORM) tool for .NET. The project includes sample code for basic CRUD operations 
 
 
+
 About Extension Methods
 Dapper extends the IDbConnection interface with these multiple methods:
 
