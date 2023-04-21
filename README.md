@@ -1,11 +1,18 @@
 # ASPNetCoreDapper
 
-
 This repository is intended for learning ASP.NET Core web development using Dapper, a simple and efficient Object-Relational Mapping (ORM) tool for .NET. The project includes sample code for basic CRUD operations 
 
-https://postman-quick-reference-guide.readthedocs.io/en/latest/#
+- Dapper (2.0.123)
+- Microsoft.Data.SqlClient (5.1.1)
+- Swashbuckle.Asp.NetCore (6.2.3)
+
+## References
+[Dapper](https://github.com/DapperLib/Dapper/)<br />
+[Microsoft.Data.SqlClient](https://www.nuget.org/packages/Microsoft.Data.SqlClient/)<br />
+[Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
+[Postman Quick Reference Guide](https://postman-quick-reference-guide.readthedocs.io/en/latest/#)
 ##
-##
+<br />
 About Extension Methods
 Dapper extends the IDbConnection interface with these multiple methods:
 
