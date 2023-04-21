@@ -9,7 +9,7 @@ This repository is intended for learning ASP.NET Core web development using Dapp
 ## References
 [Dapper](https://github.com/DapperLib/Dapper/)<br />
 [Microsoft.Data.SqlClient](https://www.nuget.org/packages/Microsoft.Data.SqlClient/)<br />
-[Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
+[Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)<br />
 [Postman Quick Reference Guide](https://postman-quick-reference-guide.readthedocs.io/en/latest/#)
 ##
 <br />
